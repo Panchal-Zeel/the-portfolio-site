@@ -1,0 +1,150 @@
+@media (max-width: 999px) {
+  header {
+    padding: 5px 0.7rem;
+  }
+
+  #home {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  nav.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.active #close {
+    display: block;
+    width: clamp(30px, 10vw, 50px);
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  nav.active ul {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%;
+  }
+
+  nav.active ul li {
+    padding: clamp(12px, 2vw, 25px);
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  ul li a {
+    width: 100%;
+    margin: 0 1rem;
+  }
+
+  nav.active ul li:hover {
+    background-color: #00bbd41c;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0px;
+  }
+
+  #skills img {
+    max-width: 120px; /* chhoti screen pe chhoti image */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #skills h3 {
+    font-size: 1rem; /* text thoda compact */
+  }
+}
+
+@media (max-width: 1080px) {
+  #contact-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #primary-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #social-icons > div {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: fit-content;
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  #social-icons > div > div {
+    margin: 15px auto !important;
+  }
+
+  #social-icons h3 {
+    margin: 30px 0 20px;
+  }
+}
+
+@media (max-width: 555px) {
+  body h3 {
+    font-size: 0.9rem;
+  }
+  #primary-contact {
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* .projects-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  } */
+
+  .project-card {
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-box {
+    max-width: 90%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #projects {
+    padding: 0;
+  }
+}

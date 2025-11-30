@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Zeel's Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <p>Zeel's <br /><span>Portfolio</span></p>
+        <!-- <img src="./logo-portfolio.png" alt="" /> -->
+      </div>
+      <nav>
+        <img id="close" src="./assets/close.png" alt="" />
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img id="menu" src="./assets/menu.png" alt="" />
+      </nav>
+    </header>
+    <section id="home">
+      <div id="profilepic">
+        <img src="./assets/my-photo.jpg" alt="" />
+      </div>
+      <div id="intro">
+        <h1>Hello, I'm <br /><span>Zeel Panchal</span><span>!</span></h1>
+        <h2>Frontend Enthusiast</h2>
+        <p>
+          I build interactive user-friendly experiences for
+          <span>the web</span>.
+        </p>
+        <a href="./assets/Resume.pdf" download><button>Download CV</button></a>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About <span>Me</span></h2>
+      <div id="about-right">
+        <div class="showcase" id="showcase1">
+          <img src="./assets/experience.png" alt="experience" />
+          1+ Years of Experience
+        </div>
+        <div class="showcase" id="showcase2">
+          <img src="./assets/projects-completed.png" alt="projects-completed" />
+          10+ Projects Completed
+        </div>
+        <div class="showcase" id="showcase3">
+          <img src="./assets/location.png" alt="location" />
+          New Ranip, Ahmedabad
+        </div>
+        <div class="showcase" id="showcase4">
+          <img src="./assets/education.png" alt="education" />
+          Bechlor's in CE
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>My <span>Skills</span></h2>
+      <div id="skills-container">
+        <div class="skill-box">
+          <img src="./assets/html-5.png" alt="" />
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-box">
+          <img src="./assets/css-3.png" alt="" />
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-box">
+          <img src="./assets/js.png" alt="" />
+          <h3>JS</h3>
+        </div>
+        <div class="skill-box">
+          <img src="./assets/tailwindcss.ico" alt="" />
+          <h3>Tailwind</h3>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Top <span>Projects</span></h2>
+      <div id="projects-container">
+        <div class="project-card">
+          <div class="project-box">
+            <h3>credentials manager</h3>
+            <p>
+              VaultGuard, A clean, responsive credential manager featuring
+              editable fields, secure password masking, and intuitive controls
+              for adding, viewing, and organizing login details.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button>
+              <a
+                href="https://panchal-zeel.github.io/Vaultguard-Credentials-Manager/"
+                target="_blank"
+                >live demo</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://github.com/Panchal-Zeel/Vaultguard-Credentials-Manager"
+                target="_blank"
+                >view code</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <h3>multi-step form</h3>
+            <p>
+              A sleek, gradient-based onboarding form with step-by-step
+              navigation, intuitive field grouping, and responsive controls for
+              collecting personal, contact, and additional user details tightly.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button><a href="#">live demo</a></button>
+            <button><a href="#">view code</a></button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <h3>pomodoro timer</h3>
+            <p>
+              A focused time management tool with Pomodoro, short break, and
+              long break modes, featuring a clean timer display, task input, and
+              auto-start toggle for smoother work sessions.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button><a href="#">live demo</a></button>
+            <button><a href="#">view code</a></button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <h3>interactive quiz app</h3>
+            <p>
+              A fun, knowledge-testing quiz interface with multiple-choice
+              questions and a clean progress tracker—ending with a celebratory
+              score screen and a reset option for replay.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button>
+              <a
+                href="https://panchal-zeel.github.io/Interactive-Quiz-App/"
+                target="_blank"
+                >live demo</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://github.com/Panchal-Zeel/Interactive-Quiz-App"
+                target="_blank"
+                >view code</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <h3>to-do list app</h3>
+            <p>
+              A sleek, dark-mode task manager with smart filters for pending and
+              completed tasks, quick add/delete controls, and a one-tap storage
+              reset for effortless productivity.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button>
+              <a
+                href="https://panchal-zeel.github.io/todo-list-app-tailwind/"
+                target="_blank"
+                >live demo</a
+              >
+            </button>
+            <button>
+              <a href="https://github.com/Panchal-Zeel/todo-list-app-tailwind"
+                >view code</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <h3>weather app</h3>
+            <p>
+              A clean weather dashboard with real-time data for temperature,
+              humidity, and wind speed, featuring search functionality and error
+              handling for invalid city names.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button>
+              <a
+                href="https://panchal-zeel.github.io/weather-app/"
+                target="_blank"
+                >live demo</a
+              >
+            </button>
+            <button>
+              <a
+                href="https://github.com/Panchal-Zeel/weather-app"
+                target="_blank"
+                >view code</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-box">
+            <h3>expense tracker</h3>
+            <p>
+              A simple and clean interface for logging daily expenses, featuring
+              quick input fields, editable entries, and instant tracking with
+              date, amount, and description.
+            </p>
+          </div>
+          <div class="project-overlay">
+            <button><a href="#">live demo</a></button>
+            <button><a href="#">view code</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div id="contact-container">
+        <div id="primary-contact">
+          <div class="email">
+            <img src="./assets/email.png" alt="" />
+            <!-- <h3>Email</h3> -->
+            <p>panchalzeel16.com</p>
+          </div>
+          <div class="phone">
+            <img src="./assets/telephone.png" alt="" />
+            <!-- <h3>Phone</h3> -->
+            <p>+91 7573812218</p>
+          </div>
+        </div>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message..."></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div id="social-icons">
+          <h3>Connect with me</h3>
+          <div>
+            <div class="social">
+              <img src="./assets/linkedin.png" alt="" />
+              <p>@Zeel Panchal</p>
+            </div>
+            <div class="social">
+              <img src="./assets/github.png" alt="" />
+              <p>@Panchal-Zeel</p>
+            </div>
+            <div class="social">
+              <img src="./assets/instagram.png" alt="" />
+              <p>@Zeel5304</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Zeel Panchal. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
